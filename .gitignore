@@ -13,3 +13,41 @@ coverage/
 .DS_Store
 .vscode/
 .idea/
+
+# Dependencies and build files
+node_modules/
+dist/
+build/
+.vite/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and operating-system files
+*.log
+*.pid
+.DS_Store
+
+# Old project backups
+client/.circuitweb-stage*-backup-*/
+client/client-backup-*/
+client-backup-stage*/
+
+# Backup files and folders
+**/backups/
+**/backup/
+**/*-backup-*/
+**/*.backup*
+**/*.bak
+*.log
+*.pid
+
+# Ignore all backup folders and backup files
+**/*backup*/
+**/*backup*/**
+**/*.backup*
+**/*.bak
+*.log
+*.pid

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1100" height="570" viewBox="0 0 1100 570">
+
+<rect width="1100" height="570" rx="12" fill="white"/>
+
+<text x="550" y="45" text-anchor="middle"
+font-family="Arial" font-size="27" font-weight="bold" fill="#222">
+AM Demodulator Circuit with Switchable Load
+</text>
+
+<g stroke="#222" stroke-width="4" fill="none"
+stroke-linecap="round" stroke-linejoin="round">
+
+<!-- Input source -->
+<circle cx="105" cy="230" r="43"/>
+<path d="M77 230 Q91 190 105 230 T133 230"/>
+
+<!-- Input to diode -->
+<path d="M148 230 H235"/>
+
+<!-- Diode -->
+<path d="M235 207 L235 253 L280 230 Z" fill="#222"/>
+<path d="M290 205 V255"/>
+
+<!-- Detector output node -->
+<path d="M290 230 H650"/>
+
+<!-- Capacitor across output -->
+<path d="M430 230 V305"/>
+<path d="M402 305 H458 M402 325 H458"/>
+<path d="M430 325 V420"/>
+
+<!-- SPDT switch -->
+<circle cx="650" cy="230" r="7" fill="#222"/>
+<path d="M650 230 L720 165"/>
+<circle cx="730" cy="155" r="7" fill="#222"/>
+<circle cx="730" cy="310" r="7" fill="#222"/>
+
+<!-- Upper load resistor -->
+<path d="M730 155 H760 L780 135 L805 175 L830 135 L855 175 L880 135 L905 155 H940"/>
+
+<!-- Lower load resistor -->
+<path d="M730 310 H760 L780 290 L805 330 L830 290 L855 330 L880 290 L905 310 H940"/>
+
+<!-- Common ground return for loads -->
+<path d="M940 155 V310"/>
+<path d="M940 230 V420 H105 V273"/>
+
+<!-- Ground symbol -->
+<path d="M430 420 V450 M400 450 H460 M410 462 H450 M420 474 H440"/>
+
+<!-- CRO connections -->
+<path d="M650 230 H1000"/>
+<circle cx="1000" cy="230" r="7" fill="#222"/>
+<path d="M1000 230 V420"/>
+<circle cx="1000" cy="420" r="7" fill="#222"/>
+
+</g>
+
+<g font-family="Arial" fill="#222" font-size="20">
+<text x="105" y="305" text-anchor="middle">AM Input</text>
+<text x="260" y="190" text-anchor="middle">D1</text>
+<text x="465" y="315">C1</text>
+<text x="660" y="205">S1</text>
+<text x="820" y="110" text-anchor="middle">RL1 (Large)</text>
+<text x="820" y="365" text-anchor="middle">RL2 (Small)</text>
+<text x="1010" y="215">CRO (+)</text>
+<text x="1010" y="445">CRO (-)</text>
+<text x="550" y="520" text-anchor="middle">
+Envelope Detector - AM Demodulation
+</text>
+</g>
+</svg>

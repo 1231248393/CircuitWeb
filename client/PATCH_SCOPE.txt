@@ -1,0 +1,4 @@
+Changes only src/components/SandboxUI.jsx and src/components/GuidedLabUI.jsx.
+Requires Stage 3 src/electrical/simulationEngine.js.
+Run Simulation always evaluates circuit data; DSO/CRO overlay opens only when a scope instrument is present.
+Existing storage keys, component IDs, wire formats and EduLabX portal files are untouched.
